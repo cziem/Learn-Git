@@ -21,6 +21,7 @@ To make a faster commit, use this...
 - ```git pull origin master``` -- Pull your repository from an online domain to your local machine.
 - ```git remote``` -- Displays the remote name you are working with.
 - ```git remote -v``` The `-v` flag shows more details about the address you are pushing to or pulling from.
+- ```git remote add <remote name (origin)> <url>``` -- Use this to add a remote to your repository.
 
 
 
