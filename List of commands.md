@@ -19,6 +19,8 @@ To make a faster commit, use this...
 - ```git clone <url address> or <dir>``` -- To clone a repository from the web to your local machine or from a given dir to your repository.
 - ```git push origin master``` -- Push your repository to an online domain.
 - ```git pull origin master``` -- Pull your repository from an online domain to your local machine.
+- ```git remote``` -- Displays the remote name you are working with.
+- ```git remote -v``` The `-v` flag shows more details about the address you are pushing to or pulling from.
 
 
 
