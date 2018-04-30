@@ -25,6 +25,12 @@ To make a faster commit, use this...
 - ```git remote``` -- Displays the remote name you are working with.
 - ```git remote -v``` The `-v` flag shows more details about the address you are pushing to or pulling from
 - ```git remote add <remote name (origin)> <url>``` -- Use this to add a remote to your repository.
+- ```git show``` -- This command works like the ```git log -p``` already introduced at the beginning of this lesson.
+- ```git tag <tag name>``` -- Used to add tags to commits to make them easier to track and remember. Think of tags as sign posts or callouts that give direction. You really don't want to tag all of your commits.
+- ```git merge <branch_name1> <branch_name2>``` -- This merges the changes in one branch into the second parameter branch provided, usually it is the master.
+> PS: Note that git will not merge two branches if they are conflicting. That is to say if sames lines of the branches to be merged were modified, git wouldn't know which line is correct or suitable for your code. So I would walk you through conflict resolution in this lesson [Conflict Resolution and Merging](https://github.com/phavor/Learn-Git/blob/master/lesson5.md). 
+
+- ```git checkout <file_name>``` -- This removes a file from the staging index... Think of it as removing what you wouldn't want to commit into your repo.
 
 
 
