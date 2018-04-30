@@ -5,6 +5,7 @@
 - ```git init``` -- Initializes a directory as a repository.
 - ```git add``` -- Adds a file to the staging area ready to be committed. This can be said to mean tracking the file.
 - ```git log``` -- Shows a log of all commits that have been made.
+- ```git log --oneline``` -- Shows the commit ids and commit messages in the log history. It abstracts the author information, and oh... it displays these informations on one line at a time.
 - ```git status``` -- Shows the status of the repository... all staged / tracked files are colored green, while the unstaged / untracked files are colored red.
 - ```git branch``` -- Shows what branch you are currently working on.
 - ```git branch <branch_name>``` -- Create a branch off the master branch with the provided branch name.
@@ -20,7 +21,7 @@ To make a faster commit, use this...
 - ```git push origin master``` -- Push your repository to an online domain.
 - ```git pull origin master``` -- Pull your repository from an online domain to your local machine.
 - ```git remote``` -- Displays the remote name you are working with.
-- ```git remote -v``` The `-v` flag shows more details about the address you are pushing to or pulling from.
+- ```git remote -v``` The `-v` flag shows more details about the address you are pushing to or pulling from
 - ```git remote add <remote name (origin)> <url>``` -- Use this to add a remote to your repository.
 
 
