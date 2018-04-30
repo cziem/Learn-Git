@@ -7,6 +7,7 @@
 - ```git log``` -- Shows a log of all commits that have been made.
 - ```git log --oneline``` -- Shows the commit ids and commit messages in the log history. It abstracts the author information, and oh... it displays these informations on one line at a time.
 - ```git log --stat``` -- Shows the log history with attention drawn to what changes were made to the files.
+- ```git log -p (--patch)``` -- Shows the log history with the actual code changes that were made and which lines they occur. Added lines of code are colored green while removed lines of code are red colored.
 - ```git status``` -- Shows the status of the repository... all staged / tracked files are colored green, while the unstaged / untracked files are colored red.
 - ```git branch``` -- Shows what branch you are currently working on.
 - ```git branch <branch_name>``` -- Create a branch off the master branch with the provided branch name.
